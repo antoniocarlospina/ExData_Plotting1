@@ -16,7 +16,7 @@ lines(house$NDate,house$Sub_metering_2, col = "red")
 lines(house$NDate,house$Sub_metering_3, col = "blue")
 legend("topright",lty = c(1,1,1), legend = c("Sub_metering_1","Sub_metering_2","Sub_metering_3"), col = c("black","red","blue"))
 #plot 3
-plot(house$NDate,house$Voltage, type="l",ylab = "datetime",xlab = "Voltage")
+plot(house$NDate,house$Voltage, type="l",xlab = "datetime",ylab = "Voltage")
 #plot 4
 plot(house$NDate,house$Global_reactive_power, type="l",ylab = "Global_reactive_power",xlab = "datetime")
 #closing device
